@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/turnage/graw/botfaces"
-	"github.com/turnage/graw/reddit"
-	"github.com/turnage/graw/streams"
+	"github.com/stevenxie/graw/botfaces"
+	"github.com/stevenxie/graw/reddit"
+	"github.com/stevenxie/graw/streams"
 )
 
 var (

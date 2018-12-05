@@ -37,10 +37,9 @@ package streams
 import (
 	"strings"
 
-	"github.com/turnage/graw/reddit"
-
-	"github.com/turnage/graw/streams/internal/monitor"
-	"github.com/turnage/graw/streams/internal/rsort"
+	"github.com/stevenxie/graw/reddit"
+	"github.com/stevenxie/graw/streams/internal/monitor"
+	"github.com/stevenxie/graw/streams/internal/rsort"
 )
 
 // Subreddits returns a stream of new posts from the requested subreddits. This
