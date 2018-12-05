@@ -2,7 +2,7 @@
 
 _A Reddit bot library for Go._
 
-[![Godoc][godoc-img]][godoc]
+[![GoDoc][godoc-img]][godoc]
 [![Go Report Card][grp-img]][grp]
 [![Release][release-img]][release]
 [![Travis: build][travis-img]][travis]
@@ -41,7 +41,7 @@ func (a *Announcer) Post(post *reddit.Post) error {
 Give this to `graw` with an
 [API handle from the `reddit` package](https://godoc.org/github.com/turnage/graw/reddit)
 and tell it what events you want to subscribe to; `graw` will take care of the
-rest. See the [godoc][godoc] and [tutorial book][gitbook] for more information.
+rest. See the [GoDoc][godoc] and [tutorial book][gitbook] for more information.
 
 ## Features
 
@@ -61,7 +61,8 @@ receive them!
 
 `graw` also provides two lower level packages for developers to tackle other
 interactions with Reddit like one-shot scripts and bot actions; see the
-subdirectories in the [godoc][godoc] for more information.
+[subdirectories in the GoDoc](https://godoc.org/github.com/stevenxie/graw#pkg-subdirectories)
+for more information.
 
 [gitbook]: https://turnage.gitbooks.io/graw/content/
 [godoc]: https://godoc.org/github.com/stevenxie/graw

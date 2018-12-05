@@ -81,13 +81,13 @@ secrets-reveal:
 
 
 ## [Go: modules]
-.PHONY: init verify dl vendor tidy update fix
+.PHONY: mod-init verify dl vendor tidy update fix
 
 ## Initializes a Go module in the current directory.
 ## Variables: MODPATH (module source path)
 MODPATH =
 mod-init:
-	@if [ "$(MODULE)" == true ]; then \
+	@if [ "$(MODULES)" == true ]; then \
 	   echo "Initializing Go module..." && \
 	   go mod init $(MODPATH); \
 	 fi
