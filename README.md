@@ -1,6 +1,6 @@
 # graw
 
-_A Reddit API wrapper, for Go._
+_A Reddit bot library for Go._
 
 [![Godoc][godoc-img]][godoc]
 [![Go Report Card][grp-img]][grp]
@@ -33,7 +33,7 @@ new posts in a given subreddit, this is your bot:
 type Announcer struct {}
 
 func (a *Announcer) Post(post *reddit.Post) error {
-	fmt.Printf(`%s posted "%s"\n`, post.Author, post.Title
+	fmt.Printf("%s posted \"%s\".\n", post.Author, post.Title)
 	return nil
 }
 ```
@@ -60,8 +60,8 @@ Processing all of these events is as as simple as implementing a method to
 receive them!
 
 `graw` also provides two lower level packages for developers to tackle other
-interactions with Reddit like one-shot scripts and bot actions. See
-subdirectories in the [godoc][godoc].
+interactions with Reddit like one-shot scripts and bot actions; see the
+subdirectories in the [godoc][godoc] for more information.
 
 [gitbook]: https://turnage.gitbooks.io/graw/content/
 [godoc]: https://godoc.org/github.com/stevenxie/graw
